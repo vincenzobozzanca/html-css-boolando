@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+.sconto {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.sostenibilità {
+    background-color: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    z-index: 1;
+}
+
+.sola-sostenibilità {
+    background: rgb(0, 128, 0);
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    z-index: 1;
+}
+
+.cuore {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-size: 1.2em;
+    padding: 0.4em 0.6em;
+    position: absolute;
+    top: 1em;
+    right: 0;
+}
+
+.prezzo-scontato {
+    color: rgb(255, 0, 0);
+}
+
+.prezzo-originale {
+    text-decoration: line-through;
+}
+
+.prezzi {
+    display: flex;
+    gap: 5px;
+}
+
+.scritte {
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+.foto-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.card:hover .foto-2 {
+
+    z-index: 0;
+}
+
+
+
+/* MAIN  */
+
+.section {
+    padding: 30px 0;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 10px;
+}
+
+.col {
+    width: calc(95% / 3);
+    background-color: rgb(231 231 229);
+    margin-bottom: auto;
+}
+
+.card {
+    position: relative;
+}
+
+
+
